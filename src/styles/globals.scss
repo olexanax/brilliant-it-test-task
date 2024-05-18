@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #010101;
+    color: #fff;
+}
+@layer components {
+    .border-gradient-custom {
+        background: linear-gradient(
+            to right,
+            rgba(150, 52, 136, 1),
+            rgba(252, 111, 50, 1),
+            rgba(255, 74, 89, 1)
+        );
+    }
+}
